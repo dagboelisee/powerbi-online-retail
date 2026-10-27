@@ -1,0 +1,17 @@
+# Données sources (téléchargeables depuis l'UCI)
+*.xlsx
+*.xls
+*.csv
+*.zip
+
+# Fichiers temporaires Power BI
+*.pbi/
+.pbi/
+.pbix.tmp
+*.pbitmp
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Fichiers système
+.DS_Store
+Thumbs.db
