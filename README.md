@@ -28,7 +28,7 @@ Rapport Power BI en quatre pages, construit de bout en bout (nettoyage Power Que
 | | |
 |---|---|
 | ![Produits](docs/pages/2-produits.png) | ![Clients](docs/pages/3-clients.png) |
-| ![Décision](docs/pages/4-decision.png) | ![Modèle](docs/modele.png) |
+| ![Décision](docs/pages/4-decision.png) | ![Modèle](docs/mod%C3%A8le.png) |
 
 ## Données
 
@@ -38,7 +38,7 @@ Rapport Power BI en quatre pages, construit de bout en bout (nettoyage Power Que
 
 ## Modèle de données
 
-Schéma en étoile : une table de faits `FaitVentes` et quatre dimensions (`DimDate`, `DimProduit`, `DimClient`, `DimPays`), plus une table `RFM` reliée à `DimClient` (relation un-à-un). Toutes les autres relations sont un-à-plusieurs, avec filtrage dans un seul sens, depuis la dimension vers la table de faits. Voir la capture [docs/modele.png](docs/modele.png).
+Schéma en étoile : une table de faits `FaitVentes` et quatre dimensions (`DimDate`, `DimProduit`, `DimClient`, `DimPays`), plus une table `RFM` reliée à `DimClient` (relation un-à-un). Toutes les autres relations sont un-à-plusieurs, avec filtrage dans un seul sens, depuis la dimension vers la table de faits. Voir la capture [docs/mod%C3%A8le.png](docs/mod%C3%A8le.png).
 
 ## Choix techniques et nettoyage
 
